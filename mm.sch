@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/21/2011 12:02:16 AM
+EESchema Schematic File Version 2  date Tue 08 Nov 2011 10:21:31 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,13 +29,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-EELAYER 43  0
+LIBS:mm
+LIBS:mm-cache
+EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-encoding utf-8
 Sheet 1 1
 Title ""
-Date "21 sep 2011"
+Date "9 nov 2011"
 Rev ""
 Comp ""
 Comment1 ""
@@ -43,4 +44,181 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	10500 3900 10250 3900
+Wire Wire Line
+	10500 3700 10250 3700
+Wire Wire Line
+	10500 5700 10250 5700
+Wire Wire Line
+	10500 5500 10250 5500
+Wire Wire Line
+	2900 2450 2300 2450
+Wire Wire Line
+	2900 1750 2300 1750
+Connection ~ 2300 2800
+Wire Wire Line
+	2300 1250 2300 3500
+Wire Wire Line
+	2900 1850 1950 1850
+Wire Wire Line
+	2900 2550 1950 2550
+Connection ~ 2300 2450
+Connection ~ 2300 1750
+Connection ~ 2700 2000
+Wire Wire Line
+	2900 2000 2700 2000
+Connection ~ 2700 2700
+Wire Wire Line
+	2900 2700 2700 2700
+Wire Wire Line
+	2900 1300 2700 1300
+Wire Wire Line
+	2700 1300 2700 3250
+Wire Wire Line
+	2900 2350 2700 2350
+Connection ~ 2700 2350
+Wire Wire Line
+	2900 1650 2700 1650
+Connection ~ 2700 1650
+Connection ~ 2300 2100
+Wire Wire Line
+	1950 2900 2900 2900
+Wire Wire Line
+	2900 2200 1950 2200
+Wire Wire Line
+	2900 1500 1950 1500
+Wire Wire Line
+	2900 1400 2300 1400
+Wire Wire Line
+	2900 2100 2300 2100
+Wire Wire Line
+	2900 2800 2300 2800
+Wire Wire Line
+	10250 5400 10500 5400
+Wire Wire Line
+	10250 5600 10500 5600
+Wire Wire Line
+	10250 3600 10500 3600
+Wire Wire Line
+	10250 3800 10500 3800
+$Comp
+L DRV8824 U?
+U 1 1 4EB9F155
+P 9500 5150
+F 0 "U?" H 9500 5050 50  0000 C CNN
+F 1 "DRV8824" H 9500 5250 50  0000 C CNN
+	1    9500 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L DRV8824 U?
+U 1 1 4EB9F149
+P 9500 3350
+F 0 "U?" H 9500 3250 50  0000 C CNN
+F 1 "DRV8824" H 9500 3450 50  0000 C CNN
+	1    9500 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_4 P2
+U 1 1 4EB9E52A
+P 10850 5550
+F 0 "P2" V 10800 5550 50  0000 C CNN
+F 1 "CONN_4" V 10900 5550 50  0000 C CNN
+	1    10850 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_4 P1
+U 1 1 4EB9E523
+P 10850 3750
+F 0 "P1" V 10800 3750 50  0000 C CNN
+F 1 "CONN_4" V 10900 3750 50  0000 C CNN
+	1    10850 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 4EB9E412
+P 2300 3500
+F 0 "#PWR?" H 2300 3590 20  0001 C CNN
+F 1 "+5V" H 2300 3590 30  0000 C CNN
+	1    2300 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C1
+U 1 1 4EB9E254
+P 2500 3050
+F 0 "C1" H 2550 3150 50  0000 L CNN
+F 1 "C" H 2550 2950 50  0000 L CNN
+	1    2500 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L AGND #PWR?
+U 1 1 4EB9DE78
+P 2700 3250
+F 0 "#PWR?" H 2700 3250 40  0001 C CNN
+F 1 "AGND" H 2700 3180 50  0000 C CNN
+	1    2700 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3 K5
+U 1 1 4EB9DD8C
+P 3250 2800
+F 0 "K5" V 3200 2800 50  0000 C CNN
+F 1 "CONN_3" V 3300 2800 40  0000 C CNN
+	1    3250 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3 K4
+U 1 1 4EB9DD8A
+P 3250 2450
+F 0 "K4" V 3200 2450 50  0000 C CNN
+F 1 "CONN_3" V 3300 2450 40  0000 C CNN
+	1    3250 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3 K3
+U 1 1 4EB9DD85
+P 3250 2100
+F 0 "K3" V 3200 2100 50  0000 C CNN
+F 1 "CONN_3" V 3300 2100 40  0000 C CNN
+	1    3250 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3 K2
+U 1 1 4EB9DD76
+P 3250 1750
+F 0 "K2" V 3200 1750 50  0000 C CNN
+F 1 "CONN_3" V 3300 1750 40  0000 C CNN
+	1    3250 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3 K1
+U 1 1 4EB9DD69
+P 3250 1400
+F 0 "K1" V 3200 1400 50  0000 C CNN
+F 1 "CONN_3" V 3300 1400 40  0000 C CNN
+	1    3250 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM3S3748 ~?
+U 1 1 4E94E559
+P 5900 4150
+F 0 "~?" H 5600 3850 60  0001 C CNN
+F 1 "LM3S3748" H 5900 4250 50  0000 C CNN
+F 2 "LQFP100" H 5500 3750 60  0000 C CNN
+F 3 "http://www.ti.com/litv/pdf/spms085f" H 5600 3850 60  0000 C CNN
+	1    5900 4150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
