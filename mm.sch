@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 11/16/2011 11:04:49 AM
+EESchema Schematic File Version 2  date 11/29/2011 10:58:33 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,13 +30,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:mm
+LIBS:mm-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "16 nov 2011"
+Date "30 nov 2011"
 Rev ""
 Comp ""
 Comment1 ""
@@ -44,6 +45,67 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Label 4200 1600 0    60   ~ 0
+5V_OFF
+$Comp
+L +5V #PWR?
+U 1 1 4ED5A99E
+P 600 1100
+F 0 "#PWR?" H 600 1190 20  0001 C CNN
+F 1 "+5V" H 600 1190 30  0000 C CNN
+	1    600  1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4ED5A98B
+P 600 1500
+F 0 "#PWR?" H 600 1500 30  0001 C CNN
+F 1 "GND" H 600 1430 30  0001 C CNN
+	1    600  1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C Cflat
+U 1 1 4ED59203
+P 600 1300
+F 0 "Cflat" H 650 1400 50  0000 L CNN
+F 1 "100uF" H 650 1200 50  0000 L CNN
+	1    600  1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR L2
+U 1 1 4ED591EB
+P 900 1100
+F 0 "L2" V 850 1100 40  0000 C CNN
+F 1 "20uH" V 1000 1100 40  0000 C CNN
+	1    900  1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2250 1500 2150 1500
+Wire Wire Line
+	2150 1500 2150 1600
+Wire Wire Line
+	2150 1600 1200 1600
+Wire Wire Line
+	1200 1600 1200 1100
+Wire Wire Line
+	1200 1100 1350 1100
+Wire Wire Line
+	2250 1100 1950 1100
+Wire Wire Line
+	2150 1350 2150 1300
+Connection ~ 3850 900 
+Wire Wire Line
+	4100 900  3750 900 
+Wire Wire Line
+	3750 1600 4200 1600
+Wire Wire Line
+	3750 1300 3800 1300
+Wire Wire Line
+	3800 1300 3800 1200
 Wire Wire Line
 	8200 1650 8200 1750
 Wire Wire Line
@@ -74,7 +136,7 @@ Wire Wire Line
 	3200 3850 3500 3850
 Connection ~ 7600 3850
 Wire Wire Line
-	7500 3850 7800 3850
+	7800 3850 7500 3850
 Wire Wire Line
 	6200 2650 6200 2250
 Wire Wire Line
@@ -140,11 +202,9 @@ Wire Wire Line
 	1500 3450 2450 3450
 Wire Wire Line
 	1500 2750 2450 2750
-Wire Wire Line
-	2100 2150 2100 4400
 Connection ~ 2100 3700
 Wire Wire Line
-	1500 2650 2100 2650
+	2100 2650 1500 2650
 Wire Wire Line
 	2100 3350 1500 3350
 Wire Wire Line
@@ -165,7 +225,7 @@ Wire Wire Line
 Connection ~ 7650 4950
 Connection ~ 11100 1800
 Wire Wire Line
-	5600 6200 5600 6050
+	5600 6050 5600 6200
 Wire Wire Line
 	5600 2650 5600 2350
 Wire Wire Line
@@ -203,7 +263,7 @@ Wire Wire Line
 Wire Wire Line
 	9550 2950 9550 2900
 Wire Wire Line
-	9450 3000 9450 2900
+	9450 2900 9450 3000
 Connection ~ 9450 2950
 Wire Wire Line
 	11000 700  11000 650 
@@ -211,10 +271,128 @@ Connection ~ 10750 650
 Wire Wire Line
 	11000 650  10400 650 
 Wire Wire Line
-	10500 1150 10250 1150
+	10250 1150 10500 1150
 Connection ~ 10400 1150
 Wire Wire Line
 	8750 1250 8350 1250
+Wire Wire Line
+	3850 800  3850 900 
+Wire Wire Line
+	3750 1200 3900 1200
+Connection ~ 3800 1200
+Wire Wire Line
+	2150 1300 2250 1300
+Wire Wire Line
+	2100 2300 2100 4400
+$Comp
+L GND #PWR?
+U 1 1 4ED5910D
+P 1350 1500
+F 0 "#PWR?" H 1350 1500 30  0001 C CNN
+F 1 "GND" H 1350 1430 30  0001 C CNN
+	1    1350 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4ED59108
+P 1950 1500
+F 0 "#PWR?" H 1950 1500 30  0001 C CNN
+F 1 "GND" H 1950 1430 30  0001 C CNN
+	1    1950 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C5out
+U 1 1 4ED590E2
+P 1350 1300
+F 0 "C5out" H 1400 1400 50  0000 L CNN
+F 1 "330uF" H 1400 1200 50  0000 L CNN
+	1    1350 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODESCH D1
+U 1 1 4ED59071
+P 1950 1300
+F 0 "D1" H 1950 1400 40  0000 C CNN
+F 1 "1N5819" H 1950 1200 40  0000 C CNN
+	1    1950 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L INDUCTOR L1
+U 1 1 4ED59045
+P 1650 1100
+F 0 "L1" V 1600 1100 40  0000 C CNN
+F 1 "330uH" V 1750 1100 40  0000 C CNN
+	1    1650 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4ED5900D
+P 2150 1350
+F 0 "#PWR?" H 2150 1350 30  0001 C CNN
+F 1 "GND" H 2150 1280 30  0001 C CNN
+	1    2150 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4ED58FFC
+P 4100 1300
+F 0 "#PWR?" H 4100 1300 30  0001 C CNN
+F 1 "GND" H 4100 1230 30  0001 C CNN
+	1    4100 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 CBIN
+U 1 1 4ED58FC6
+P 4100 1100
+F 0 "CBIN" H 4150 1200 50  0000 L CNN
+F 1 "100uF" H 4150 1000 50  0000 L CNN
+	1    4100 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4ED58E8C
+P 3900 1200
+F 0 "#PWR?" H 3900 1200 30  0001 C CNN
+F 1 "GND" H 3900 1130 30  0001 C CNN
+	1    3900 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +BATT #PWR?
+U 1 1 4ED58E6C
+P 3850 800
+F 0 "#PWR?" H 3850 750 20  0001 C CNN
+F 1 "+BATT" H 3850 900 30  0000 C CNN
+	1    3850 800 
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3750 1000
+NoConn ~ 3750 1100
+NoConn ~ 3750 1400
+NoConn ~ 3750 1500
+NoConn ~ 2250 1600
+NoConn ~ 2250 1400
+NoConn ~ 2250 1200
+NoConn ~ 2250 1000
+NoConn ~ 2250 900 
+$Comp
+L TL2575 U?
+U 1 1 4ED58E0F
+P 3000 1250
+F 0 "U?" H 3000 1150 50  0000 C CNN
+F 1 "TL2575" H 3000 1350 50  0000 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl2575-12.pdf" H 3100 550 60  0001 C CNN
+	1    3000 1250
+	1    0    0    -1  
+$EndComp
 $Comp
 L GND #PWR?
 U 1 1 4EC33988
