@@ -1,4 +1,4 @@
-update=Tue 03 Jan 2012 05:08:09 PM EST
+update=Fri 06 Jan 2012 01:33:33 PM EST
 last_client=kicad
 [eeschema]
 version=1
@@ -67,5 +67,24 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=mm
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
+[pcbnew]
+[pcbnew/libraries]
+LibName1=sockets
+LibName2=connect
+LibName3=discret
+LibName4=pin_array
+LibName5=divers
+LibName6=libcms
+LibName7=display
+LibName8=valves
+LibName9=led
+LibName10=dip_sockets
+LibName11=ref-packages
+LibDir=
 [general]
 version=1
