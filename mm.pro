@@ -1,5 +1,5 @@
-update=Fri 06 Jan 2012 01:33:33 PM EST
-last_client=kicad
+update=Fri 06 Jan 2012 04:52:30 PM EST
+last_client=pcbnew
 [eeschema]
 version=1
 LibDir=
@@ -72,8 +72,28 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
+[general]
+version=1
 [pcbnew]
+version=1
+PadDrlX=0
+PadDimH=98
+PadDimV=610
+BoardThickness=630
+SgPcb45=1
+TxtPcbV=800
+TxtPcbH=600
+TxtModV=600
+TxtModH=600
+TxtModW=120
+VEgarde=100
+DrawLar=150
+EdgeLar=150
+TxtLar=120
+MSegLar=150
+LastNetListRead=
 [pcbnew/libraries]
+LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -84,7 +104,3 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
-LibName11=ref-packages
-LibDir=
-[general]
-version=1
