@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Fri 06 Jan 2012 04:52:28 PM EST
+# EESchema Netlist Version 1.1 created  Fri 20 Jan 2012 02:26:01 AM EST
 (
  ( /4F066A6A SIL-2 BAT0 12V
   ( 1 +BATT )
@@ -8,15 +8,15 @@
   ( 1 N-000067 )
   ( 2 GND )
  )
- ( /4F036B58 $noname$ C5 1uF
+ ( /4F036B58 SMDSVP10 C5 1uF
   ( 1 +2.5V )
   ( 2 GND )
  )
- ( /4ED590E2 $noname$ C5out1 330uF
+ ( /4ED590E2 SMDHD/VF C5out1 330uF
   ( 1 N-000086 )
   ( 2 GND )
  )
- ( /4F036E63 $noname$ C6 10nF
+ ( /4F036E63 SM0805 C6 10nF
   ( 1 /RESET )
   ( 2 GND )
  )
@@ -76,7 +76,7 @@
   ( 1 +3.3V )
   ( 2 GND )
  )
- ( /4F03B886/4F03842D $noname$ C22 0.02uF
+ ( /4F03B886/4F03842D SM0805 C22 0.02uF
   ( 1 GND )
   ( 2 +3.3V )
  )
@@ -84,7 +84,7 @@
   ( 1 N-000112 )
   ( 2 N-000106 )
  )
- ( /4F03B886/4F038428 $noname$ C24 0.01uF
+ ( /4F03B886/4F038428 SM0805 C24 0.01uF
   ( 1 N-000107 )
   ( 2 +BATT )
  )
@@ -92,7 +92,7 @@
   ( 1 +3.3V )
   ( 2 GND )
  )
- ( /4F03B8BC/4F03842D $noname$ C26 0.02uF
+ ( /4F03B8BC/4F03842D SM0805 C26 0.02uF
   ( 1 GND )
   ( 2 +3.3V )
  )
@@ -100,7 +100,7 @@
   ( 1 N-000123 )
   ( 2 N-000117 )
  )
- ( /4F03B8BC/4F038428 $noname$ C28 0.01uF
+ ( /4F03B8BC/4F038428 SM0805 C28 0.01uF
   ( 1 N-000118 )
   ( 2 +BATT )
  )
