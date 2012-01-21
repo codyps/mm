@@ -1,5 +1,5 @@
-update=Fri 06 Jan 2012 04:52:30 PM EST
-last_client=pcbnew
+update=Sat 07 Jan 2012 12:42:36 AM EST
+last_client=cvpcb
 [eeschema]
 version=1
 LibDir=
@@ -67,11 +67,6 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=mm
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [general]
 version=1
 [pcbnew]
@@ -93,7 +88,6 @@ TxtLar=120
 MSegLar=150
 LastNetListRead=
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -104,3 +98,10 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
+LibName11=ref-packages
+LibDir=
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
