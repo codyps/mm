@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Mon 09 Jan 2012 03:28:50 PM EST
+# EESchema Netlist Version 1.1 created  Fri 20 Jan 2012 02:26:01 AM EST
 (
  ( /4F066A6A SIL-2 BAT0 12V
   ( 1 +BATT )
@@ -8,15 +8,15 @@
   ( 1 N-000065 )
   ( 2 GND )
  )
- ( /4F036B58 SM0805 C5 1uF
+ ( /4F036B58 SMDSVP10 C5 1uF
   ( 1 +2.5V )
   ( 2 GND )
  )
- ( /4ED590E2 SM1206POL C5out1 330uF
-  ( 1 N-000095 )
+ ( /4ED590E2 SMDHD/VF C5out1 330uF
+  ( 1 N-000086 )
   ( 2 GND )
  )
- ( /4F036E63 $noname$ C6 10nF
+ ( /4F036E63 SM0805 C6 10nF
   ( 1 /RESET )
   ( 2 GND )
  )
@@ -101,7 +101,11 @@
   ( 2 N-000118 )
  )
  ( /4F03B8BC/4F038428 SM0805 C28 0.01uF
+<<<<<<< HEAD
   ( 1 N-000119 )
+=======
+  ( 1 N-000118 )
+>>>>>>> 92008d971c37b8ca9c331f2cdbacdbeeb89ac4a4
   ( 2 +BATT )
  )
  ( /4ED58FC6 SMDHD/VF CBIN1 100uF

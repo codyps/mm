@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Mon 09 Jan 2012 03:28:50 PM EST
+Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Fri 20 Jan 2012 02:26:01 AM EST
 
 BeginCmp
 TimeStamp = /4F066A6A;
@@ -18,21 +18,21 @@ BeginCmp
 TimeStamp = /4F036B58;
 Reference = C5;
 ValeurCmp = 1uF;
-IdModule  = SM0805;
+IdModule  = SMDSVP10;
 EndCmp
 
 BeginCmp
 TimeStamp = /4ED590E2;
 Reference = C5out1;
 ValeurCmp = 330uF;
-IdModule  = SM1206POL;
+IdModule  = SMDHD/VF;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F036E63;
 Reference = C6;
 ValeurCmp = 10nF;
-IdModule  = ;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
