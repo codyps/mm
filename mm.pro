@@ -67,11 +67,6 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=mm
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
 PadDrlX=0
@@ -91,7 +86,6 @@ TxtLar=120
 MSegLar=150
 LastNetListRead=
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -102,5 +96,12 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
+LibName11=ref-packages
+LibDir=
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [general]
 version=1
