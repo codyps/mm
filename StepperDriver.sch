@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 06 Jan 2012 04:52:52 PM EST
+EESchema Schematic File Version 2  date Tue 24 Jan 2012 04:35:20 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,13 +30,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:mm
-LIBS:mm-cache
-EELAYER 24  0
+EELAYER 25  0
 EELAYER END
-$Descr A4 11700 8267
+$Descr A4 11693 8268
+encoding utf-8
 Sheet 3 3
 Title ""
-Date "6 jan 2012"
+Date "24 jan 2012"
 Rev ""
 Comp ""
 Comment1 ""
