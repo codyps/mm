@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 24 Jan 2012 04:35:20 PM EST
+EESchema Schematic File Version 2  date Fri 27 Jan 2012 01:29:59 AM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,13 +30,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:mm
+LIBS:mm-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
 Title ""
-Date "24 jan 2012"
+Date "27 jan 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -166,7 +167,7 @@ P 6300 4200
 AR Path="/4F0380B1/4F038430" Ref="U?"  Part="1" 
 AR Path="/4F03B8BC/4F038430" Ref="U4"  Part="1" 
 AR Path="/4F03B886/4F038430" Ref="U3"  Part="1" 
-F 0 "U4" H 6300 4100 50  0000 C CNN
+F 0 "U3" H 6300 4100 50  0000 C CNN
 F 1 "DRV8824" H 6300 4300 50  0000 C CNN
 	1    6300 4200
 	1    0    0    -1  
@@ -202,7 +203,7 @@ P 7200 3300
 AR Path="/4F0380B1/4F03842D" Ref="C?"  Part="1" 
 AR Path="/4F03B8BC/4F03842D" Ref="C26"  Part="1" 
 AR Path="/4F03B886/4F03842D" Ref="C22"  Part="1" 
-F 0 "C26" H 7250 3400 50  0000 L CNN
+F 0 "C22" H 7250 3400 50  0000 L CNN
 F 1 "0.02uF" H 7250 3200 50  0000 L CNN
 	1    7200 3300
 	1    0    0    -1  
@@ -226,7 +227,7 @@ P 7100 5150
 AR Path="/4F0380B1/4F03842B" Ref="C?"  Part="1" 
 AR Path="/4F03B8BC/4F03842B" Ref="C25"  Part="1" 
 AR Path="/4F03B886/4F03842B" Ref="C21"  Part="1" 
-F 0 "C25" H 7150 5250 50  0000 L CNN
+F 0 "C21" H 7150 5250 50  0000 L CNN
 F 1 "0.47uF 6.3V" H 7150 5050 50  0000 L CNN
 	1    7100 5150
 	1    0    0    -1  
@@ -238,7 +239,7 @@ P 7250 3900
 AR Path="/4F0380B1/4F03842A" Ref="C?"  Part="1" 
 AR Path="/4F03B8BC/4F03842A" Ref="C27"  Part="1" 
 AR Path="/4F03B886/4F03842A" Ref="C23"  Part="1" 
-F 0 "C27" V 7300 4000 50  0000 L CNN
+F 0 "C23" V 7300 4000 50  0000 L CNN
 F 1 "0.47uF 50V" V 7300 3600 50  0000 L CNN
 	1    7250 3900
 	0    -1   -1   0   
@@ -250,7 +251,7 @@ P 7750 4600
 AR Path="/4F0380B1/4F038429" Ref="P?"  Part="1" 
 AR Path="/4F03B8BC/4F038429" Ref="P2"  Part="1" 
 AR Path="/4F03B886/4F038429" Ref="P1"  Part="1" 
-F 0 "P2" V 7700 4600 50  0000 C CNN
+F 0 "P1" V 7700 4600 50  0000 C CNN
 F 1 "MTR_CONN" V 7800 4600 50  0000 C CNN
 	1    7750 4600
 	1    0    0    -1  
@@ -262,7 +263,7 @@ P 7650 4100
 AR Path="/4F0380B1/4F038428" Ref="C?"  Part="1" 
 AR Path="/4F03B8BC/4F038428" Ref="C28"  Part="1" 
 AR Path="/4F03B886/4F038428" Ref="C24"  Part="1" 
-F 0 "C28" V 7700 4200 50  0000 L CNN
+F 0 "C24" V 7700 4200 50  0000 L CNN
 F 1 "0.01uF" V 7550 4250 50  0000 L CNN
 	1    7650 4100
 	0    -1   -1   0   
@@ -311,7 +312,7 @@ P 5000 3850
 AR Path="/4F0380B1/4F038424" Ref="R?"  Part="1" 
 AR Path="/4F03B8BC/4F038424" Ref="R6"  Part="1" 
 AR Path="/4F03B886/4F038424" Ref="R4"  Part="1" 
-F 0 "R6" V 5080 3850 50  0000 C CNN
+F 0 "R4" V 5080 3850 50  0000 C CNN
 F 1 "R" V 5000 3850 50  0000 C CNN
 	1    5000 3850
 	1    0    0    -1  
@@ -323,7 +324,7 @@ P 5150 3950
 AR Path="/4F0380B1/4F038423" Ref="R?"  Part="1" 
 AR Path="/4F03B8BC/4F038423" Ref="R7"  Part="1" 
 AR Path="/4F03B886/4F038423" Ref="R5"  Part="1" 
-F 0 "R7" V 5230 3950 50  0000 C CNN
+F 0 "R5" V 5230 3950 50  0000 C CNN
 F 1 "R" V 5150 3950 50  0000 C CNN
 	1    5150 3950
 	1    0    0    -1  
