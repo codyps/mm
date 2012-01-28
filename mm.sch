@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 27 Jan 2012 04:25:40 AM EST
+EESchema Schematic File Version 2  date Fri 27 Jan 2012 08:52:45 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title ""
-Date "27 jan 2012"
+Date "28 jan 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -925,10 +925,6 @@ NoConn ~ 5900 6050
 NoConn ~ 5700 6050
 NoConn ~ 5400 6050
 NoConn ~ 5300 6050
-NoConn ~ 3500 5550
-NoConn ~ 3500 5450
-NoConn ~ 3500 5350
-NoConn ~ 3500 5250
 NoConn ~ 3700 7200
 NoConn ~ 3700 6800
 $Comp
