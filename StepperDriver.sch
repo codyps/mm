@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 28 Jan 2012 12:22:53 PM EST
+EESchema Schematic File Version 2  date Thu 02 Feb 2012 12:53:59 AM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,9 +35,9 @@ EELAYER 25  0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 2 3
 Title ""
-Date "28 jan 2012"
+Date "2 feb 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,6 +45,19 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 7650 4950
+Wire Wire Line
+	7650 4950 7650 4850
+Wire Wire Line
+	7650 4850 8050 4850
+Wire Wire Line
+	8050 4850 8050 3600
+Wire Wire Line
+	8050 3600 7050 3600
+Wire Wire Line
+	7850 4950 7100 4950
+Wire Wire Line
+	5000 4100 5000 4200
 Wire Wire Line
 	3900 4850 5550 4850
 Wire Wire Line
@@ -70,8 +83,6 @@ Wire Wire Line
 Wire Wire Line
 	5300 5000 3900 5000
 Wire Wire Line
-	5000 4100 5000 4200
-Wire Wire Line
 	5550 3600 5000 3600
 Wire Wire Line
 	7200 3600 7200 3500
@@ -84,9 +95,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 5400 6350 5400
 Wire Wire Line
-	7250 4950 7100 4950
-Wire Wire Line
-	7900 4350 7900 4100
+	7900 4100 7900 4350
 Wire Wire Line
 	7050 4100 7450 4100
 Wire Wire Line
@@ -102,8 +111,6 @@ Wire Wire Line
 	7050 4750 7400 4750
 Wire Wire Line
 	7900 4350 7050 4350
-Wire Wire Line
-	7900 4100 7850 4100
 Connection ~ 7900 4100
 Wire Wire Line
 	7050 4850 7100 4850
@@ -119,8 +126,6 @@ Wire Wire Line
 Connection ~ 7550 3100
 Wire Wire Line
 	7800 3100 7200 3100
-Wire Wire Line
-	7300 3600 7050 3600
 Connection ~ 7200 3600
 Wire Wire Line
 	5550 3700 5150 3700
@@ -140,6 +145,29 @@ Wire Wire Line
 	3900 4550 5550 4550
 Wire Wire Line
 	3900 4750 5550 4750
+Wire Wire Line
+	7050 3750 8150 3750
+Wire Wire Line
+	8100 4100 7850 4100
+Text HLabel 7850 4950 2    60   Input ~ 0
+V3P3OUT
+Text HLabel 8100 4100 2    60   Input ~ 0
+BATT_IN
+$Comp
+L R R1
+U 1 1 4F2A663A
+P 5000 3850
+AR Path="/4F03B8BC/4F2A663A" Ref="R1"  Part="1" 
+AR Path="/4F03B886/4F2A663A" Ref="R2"  Part="1" 
+F 0 "R1" V 5080 3850 50  0000 C CNN
+F 1 "1" V 5000 3850 50  0000 C CNN
+F 2 "SM0805" V 5100 3850 50  0001 C CNN
+F 4 "http://octopart.com/crcw08051r00jnea-vishay-1179862" V 5000 3850 60  0001 C CNN "Octopart"
+	1    5000 3850
+	1    0    0    -1  
+$EndComp
+Text HLabel 8150 3750 2    60   Input ~ 0
+DECAY
 Text HLabel 3900 4850 0    60   Input ~ 0
 MODE2
 Text HLabel 3900 4750 0    60   Input ~ 0
@@ -167,33 +195,10 @@ P 6300 4200
 AR Path="/4F0380B1/4F038430" Ref="U?"  Part="1" 
 AR Path="/4F03B8BC/4F038430" Ref="U4"  Part="1" 
 AR Path="/4F03B886/4F038430" Ref="U3"  Part="1" 
-F 0 "U3" H 6300 4100 50  0000 C CNN
+F 0 "U4" H 6300 4100 50  0000 C CNN
 F 1 "DRV8824" H 6300 4300 50  0000 C CNN
+F 2 "-R-PDSO-G28" H 6300 4400 50  0001 C CNN
 	1    6300 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR?
-U 1 1 4F03842F
-P 7250 4950
-AR Path="/4F0380B1/4F03842F" Ref="#PWR?"  Part="1" 
-AR Path="/4F03B8BC/4F03842F" Ref="#PWR055"  Part="1" 
-AR Path="/4F03B886/4F03842F" Ref="#PWR063"  Part="1" 
-F 0 "#PWR063" H 7250 4910 30  0001 C CNN
-F 1 "+3.3V" H 7250 5060 30  0000 C CNN
-	1    7250 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L +BATT #PWR?
-U 1 1 4F03842E
-P 7900 4100
-AR Path="/4F0380B1/4F03842E" Ref="#PWR?"  Part="1" 
-AR Path="/4F03B8BC/4F03842E" Ref="#PWR056"  Part="1" 
-AR Path="/4F03B886/4F03842E" Ref="#PWR064"  Part="1" 
-F 0 "#PWR064" H 7900 4050 20  0001 C CNN
-F 1 "+BATT" H 7900 4200 30  0000 C CNN
-	1    7900 4100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -203,8 +208,9 @@ P 7200 3300
 AR Path="/4F0380B1/4F03842D" Ref="C?"  Part="1" 
 AR Path="/4F03B8BC/4F03842D" Ref="C26"  Part="1" 
 AR Path="/4F03B886/4F03842D" Ref="C22"  Part="1" 
-F 0 "C22" H 7250 3400 50  0000 L CNN
+F 0 "C26" H 7250 3400 50  0000 L CNN
 F 1 "0.02uF" H 7250 3200 50  0000 L CNN
+F 2 "SM0805" H 7250 3300 50  0001 C CNN
 	1    7200 3300
 	1    0    0    -1  
 $EndComp
@@ -213,9 +219,9 @@ L GND #PWR?
 U 1 1 4F03842C
 P 7100 5350
 AR Path="/4F0380B1/4F03842C" Ref="#PWR?"  Part="1" 
-AR Path="/4F03B8BC/4F03842C" Ref="#PWR057"  Part="1" 
-AR Path="/4F03B886/4F03842C" Ref="#PWR065"  Part="1" 
-F 0 "#PWR065" H 7100 5350 30  0001 C CNN
+AR Path="/4F03B8BC/4F03842C" Ref="#PWR064"  Part="1" 
+AR Path="/4F03B886/4F03842C" Ref="#PWR069"  Part="1" 
+F 0 "#PWR069" H 7100 5350 30  0001 C CNN
 F 1 "GND" H 7100 5280 30  0001 C CNN
 	1    7100 5350
 	1    0    0    -1  
@@ -227,8 +233,9 @@ P 7100 5150
 AR Path="/4F0380B1/4F03842B" Ref="C?"  Part="1" 
 AR Path="/4F03B8BC/4F03842B" Ref="C25"  Part="1" 
 AR Path="/4F03B886/4F03842B" Ref="C21"  Part="1" 
-F 0 "C21" H 7150 5250 50  0000 L CNN
+F 0 "C25" H 7150 5250 50  0000 L CNN
 F 1 "0.47uF 6.3V" H 7150 5050 50  0000 L CNN
+F 2 "SM0805" H 7150 5150 50  0001 C CNN
 	1    7100 5150
 	1    0    0    -1  
 $EndComp
@@ -239,8 +246,9 @@ P 7250 3900
 AR Path="/4F0380B1/4F03842A" Ref="C?"  Part="1" 
 AR Path="/4F03B8BC/4F03842A" Ref="C27"  Part="1" 
 AR Path="/4F03B886/4F03842A" Ref="C23"  Part="1" 
-F 0 "C23" V 7300 4000 50  0000 L CNN
+F 0 "C27" V 7300 4000 50  0000 L CNN
 F 1 "0.47uF 50V" V 7300 3600 50  0000 L CNN
+F 2 "SM1812" V 7400 3600 50  0001 C CNN
 	1    7250 3900
 	0    -1   -1   0   
 $EndComp
@@ -251,7 +259,7 @@ P 7750 4600
 AR Path="/4F0380B1/4F038429" Ref="P?"  Part="1" 
 AR Path="/4F03B8BC/4F038429" Ref="P2"  Part="1" 
 AR Path="/4F03B886/4F038429" Ref="P1"  Part="1" 
-F 0 "P1" V 7700 4600 50  0000 C CNN
+F 0 "P2" V 7700 4600 50  0000 C CNN
 F 1 "MTR_CONN" V 7800 4600 50  0000 C CNN
 	1    7750 4600
 	1    0    0    -1  
@@ -263,8 +271,9 @@ P 7650 4100
 AR Path="/4F0380B1/4F038428" Ref="C?"  Part="1" 
 AR Path="/4F03B8BC/4F038428" Ref="C28"  Part="1" 
 AR Path="/4F03B886/4F038428" Ref="C24"  Part="1" 
-F 0 "C24" V 7700 4200 50  0000 L CNN
+F 0 "C28" V 7700 4200 50  0000 L CNN
 F 1 "0.01uF" V 7550 4250 50  0000 L CNN
+F 2 "SM0805" V 7650 4250 50  0001 C CNN
 	1    7650 4100
 	0    -1   -1   0   
 $EndComp
@@ -273,9 +282,9 @@ L GND #PWR?
 U 1 1 4F038427
 P 6250 5450
 AR Path="/4F0380B1/4F038427" Ref="#PWR?"  Part="1" 
-AR Path="/4F03B8BC/4F038427" Ref="#PWR058"  Part="1" 
-AR Path="/4F03B886/4F038427" Ref="#PWR066"  Part="1" 
-F 0 "#PWR066" H 6250 5450 30  0001 C CNN
+AR Path="/4F03B8BC/4F038427" Ref="#PWR065"  Part="1" 
+AR Path="/4F03B886/4F038427" Ref="#PWR070"  Part="1" 
+F 0 "#PWR070" H 6250 5450 30  0001 C CNN
 F 1 "GND" H 6250 5380 30  0001 C CNN
 	1    6250 5450
 	1    0    0    -1  
@@ -286,35 +295,11 @@ L GND #PWR?
 U 1 1 4F038426
 P 7800 3150
 AR Path="/4F0380B1/4F038426" Ref="#PWR?"  Part="1" 
-AR Path="/4F03B8BC/4F038426" Ref="#PWR059"  Part="1" 
-AR Path="/4F03B886/4F038426" Ref="#PWR067"  Part="1" 
-F 0 "#PWR067" H 7800 3150 30  0001 C CNN
+AR Path="/4F03B8BC/4F038426" Ref="#PWR066"  Part="1" 
+AR Path="/4F03B886/4F038426" Ref="#PWR071"  Part="1" 
+F 0 "#PWR071" H 7800 3150 30  0001 C CNN
 F 1 "GND" H 7800 3080 30  0001 C CNN
 	1    7800 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR?
-U 1 1 4F038425
-P 7300 3600
-AR Path="/4F0380B1/4F038425" Ref="#PWR?"  Part="1" 
-AR Path="/4F03B8BC/4F038425" Ref="#PWR060"  Part="1" 
-AR Path="/4F03B886/4F038425" Ref="#PWR068"  Part="1" 
-F 0 "#PWR068" H 7300 3560 30  0001 C CNN
-F 1 "+3.3V" H 7300 3710 30  0000 C CNN
-	1    7300 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R?
-U 1 1 4F038424
-P 5000 3850
-AR Path="/4F0380B1/4F038424" Ref="R?"  Part="1" 
-AR Path="/4F03B8BC/4F038424" Ref="R6"  Part="1" 
-AR Path="/4F03B886/4F038424" Ref="R4"  Part="1" 
-F 0 "R4" V 5080 3850 50  0000 C CNN
-F 1 "R" V 5000 3850 50  0000 C CNN
-	1    5000 3850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -324,8 +309,10 @@ P 5150 3950
 AR Path="/4F0380B1/4F038423" Ref="R?"  Part="1" 
 AR Path="/4F03B8BC/4F038423" Ref="R7"  Part="1" 
 AR Path="/4F03B886/4F038423" Ref="R5"  Part="1" 
-F 0 "R5" V 5230 3950 50  0000 C CNN
-F 1 "R" V 5150 3950 50  0000 C CNN
+F 0 "R7" V 5230 3950 50  0000 C CNN
+F 1 "1" V 5150 3950 50  0000 C CNN
+F 2 "SM0805" V 5250 3950 50  0001 C CNN
+F 4 "http://octopart.com/crcw08051r00jnea-vishay-1179862" V 5150 3950 60  0001 C CNN "Octopart"
 	1    5150 3950
 	1    0    0    -1  
 $EndComp
@@ -334,9 +321,9 @@ L GND #PWR?
 U 1 1 4F038422
 P 5150 4200
 AR Path="/4F0380B1/4F038422" Ref="#PWR?"  Part="1" 
-AR Path="/4F03B8BC/4F038422" Ref="#PWR061"  Part="1" 
-AR Path="/4F03B886/4F038422" Ref="#PWR069"  Part="1" 
-F 0 "#PWR069" H 5150 4200 30  0001 C CNN
+AR Path="/4F03B8BC/4F038422" Ref="#PWR067"  Part="1" 
+AR Path="/4F03B886/4F038422" Ref="#PWR072"  Part="1" 
+F 0 "#PWR072" H 5150 4200 30  0001 C CNN
 F 1 "GND" H 5150 4130 30  0001 C CNN
 	1    5150 4200
 	1    0    0    -1  
@@ -346,9 +333,9 @@ L GND #PWR?
 U 1 1 4F038421
 P 5000 4200
 AR Path="/4F0380B1/4F038421" Ref="#PWR?"  Part="1" 
-AR Path="/4F03B8BC/4F038421" Ref="#PWR062"  Part="1" 
-AR Path="/4F03B886/4F038421" Ref="#PWR070"  Part="1" 
-F 0 "#PWR070" H 5000 4200 30  0001 C CNN
+AR Path="/4F03B8BC/4F038421" Ref="#PWR068"  Part="1" 
+AR Path="/4F03B886/4F038421" Ref="#PWR073"  Part="1" 
+F 0 "#PWR073" H 5000 4200 30  0001 C CNN
 F 1 "GND" H 5000 4130 30  0001 C CNN
 	1    5000 4200
 	1    0    0    -1  
