@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: Thu 02 Feb 2012 12:51:30 AM EST
+EESchema-LIBRARY Version 2.3  Date: Mon 06 Feb 2012 05:54:44 AM EST
 #encoding utf-8
 #
 # BATT_2
@@ -48,6 +48,26 @@ X nHOME 27 -750 50 300 R 50 50 1 1 O
 X nFAULT 18 -750 150 300 R 50 50 1 1 O
 X GND 28 -50 -1150 300 U 50 50 1 1 W
 X DECAY 19 750 450 300 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# L78LXX
+#
+DEF L78LXX U 0 40 Y Y 1 F N
+F0 "U" 0 150 60 H V C CNN
+F1 "L78LXX" 0 0 60 H V C CNN
+F3 "http://datasheet.octopart.com/L78L33ACUTR-STMicroelectronics-datasheet-5313475.pdf" -50 400 60 H I C CNN
+F4 "http://octopart.com/l78l33acutr-stmicroelectronics-526685" 100 550 60 H I C CNN "Octopart"
+$FPLIST
+ SO-8
+ SOT-89
+ TO-92
+$ENDFPLIST
+DRAW
+S -300 250 300 -250 0 1 0 N
+X Vout 1 500 150 200 L 50 50 1 1 W
+X GND 2 0 -450 200 U 50 50 1 1 W
+X Vin 3 -500 150 200 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
@@ -217,6 +237,29 @@ X GND 13 750 50 300 L 50 50 1 1 W
 X NC 14 750 150 300 L 50 50 1 1 U
 X NC 15 750 250 300 L 50 50 1 1 U
 X VIN 16 750 350 300 L 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# TPS79XXX_fixed
+#
+DEF TPS79XXX_fixed U 0 40 Y Y 1 F N
+F0 "U" 0 50 60 H V C CNN
+F1 "TPS79XXX_fixed" 0 200 60 H V C CNN
+F3 "http://www.ti.com/lit/ds/symlink/tps79301.pdf" 0 450 60 H I C CNN
+F4 "http://octopart.com/tps79333dbvr-texas+instruments-525272" 100 550 60 H I C CNN "Octopart"
+F5 "http://search.digikey.com/us/en/products/TPS79333DBVR/296-12961-1-ND/476149" 200 350 60 H I C CNN "Digikey"
+$FPLIST
+ SO-8
+ SOT-89
+ TO-92
+$ENDFPLIST
+DRAW
+S 300 -250 -300 150 0 1 0 N
+X IN 1 -500 50 200 R 50 50 1 1 W
+X GND 2 -500 -50 200 R 50 50 1 1 W
+X EN 3 -500 -150 200 R 50 50 1 1 I
+X NR 4 500 -150 200 L 50 50 1 1 P
+X Vout 5 500 50 200 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
