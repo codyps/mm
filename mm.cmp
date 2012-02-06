@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Wed 01 Feb 2012 09:05:19 PM EST
+Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Mon 06 Feb 2012 08:44:44 AM EST
 
 BeginCmp
 TimeStamp = /4F066A6A;
@@ -207,28 +207,28 @@ BeginCmp
 TimeStamp = /4F29E19D;
 Reference = Cir2;
 ValeurCmp = 500uF;
-IdModule  = ;
+IdModule  = SMDSVP10;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F29E1A3;
 Reference = Cir3;
 ValeurCmp = 500uF;
-IdModule  = ;
+IdModule  = SMDSVP10;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F29E56F;
 Reference = Cir4;
 ValeurCmp = 500uF;
-IdModule  = ;
+IdModule  = SMDSVP10;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F29E1A9;
 Reference = Cir5;
 ValeurCmp = 500uF;
-IdModule  = ;
+IdModule  = SMDSVP10;
 EndCmp
 
 BeginCmp
@@ -403,49 +403,49 @@ BeginCmp
 TimeStamp = /4F066316;
 Reference = R8;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F06631F;
 Reference = R9;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F06631D;
 Reference = R10;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F066321;
 Reference = R11;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F06631A;
 Reference = R12;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4EDED2CB;
 Reference = RPU1;
 ValeurCmp = 1M;
-IdModule  = ;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F036DFD;
 Reference = Rpu2;
 ValeurCmp = 10k;
-IdModule  = ;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp

@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Wed 01 Feb 2012 09:05:19 PM EST
+# EESchema Netlist Version 1.1 created  Mon 06 Feb 2012 08:44:44 AM EST
 (
  ( /4F066A6A SIL-2 BAT0 12V
   ( 1 N-000034 )
@@ -116,19 +116,19 @@
   ( 1 AGND )
   ( 2 +5V )
  )
- ( /4F29E19D $noname$ Cir2 500uF
+ ( /4F29E19D SMDSVP10 Cir2 500uF
   ( 1 ? )
   ( 2 ? )
  )
- ( /4F29E1A3 $noname$ Cir3 500uF
+ ( /4F29E1A3 SMDSVP10 Cir3 500uF
   ( 1 ? )
   ( 2 ? )
  )
- ( /4F29E56F $noname$ Cir4 500uF
+ ( /4F29E56F SMDSVP10 Cir4 500uF
   ( 1 ? )
   ( 2 ? )
  )
- ( /4F29E1A9 $noname$ Cir5 500uF
+ ( /4F29E1A9 SMDSVP10 Cir5 500uF
   ( 1 ? )
   ( 2 +5V )
  )
@@ -259,31 +259,31 @@
   ( 1 N-000128 )
   ( 2 GND )
  )
- ( /4F066316 $noname$ R8 R
+ ( /4F066316 SM0805 R8 R
   ( 1 N-000100 )
   ( 2 N-000058 )
  )
- ( /4F06631F $noname$ R9 R
+ ( /4F06631F SM0805 R9 R
   ( 1 N-000059 )
   ( 2 N-000092 )
  )
- ( /4F06631D $noname$ R10 R
+ ( /4F06631D SM0805 R10 R
   ( 1 N-000099 )
   ( 2 N-000091 )
  )
- ( /4F066321 $noname$ R11 R
+ ( /4F066321 SM0805 R11 R
   ( 1 N-000061 )
   ( 2 N-000090 )
  )
- ( /4F06631A $noname$ R12 R
+ ( /4F06631A SM0805 R12 R
   ( 1 N-000102 )
   ( 2 N-000089 )
  )
- ( /4EDED2CB $noname$ RPU1 1M
+ ( /4EDED2CB SM0805 RPU1 1M
   ( 1 N-000004 )
   ( 2 /3V3_EN )
  )
- ( /4F036DFD $noname$ Rpu2 10k
+ ( /4F036DFD SM0805 Rpu2 10k
   ( 1 +3.3V )
   ( 2 /RESET )
  )
