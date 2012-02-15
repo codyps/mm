@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Mon 13 Feb 2012 01:15:18 AM EST
+Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Wed 15 Feb 2012 06:38:19 PM EST
 
 BeginCmp
 TimeStamp = /4F066A6A;
@@ -284,7 +284,7 @@ BeginCmp
 TimeStamp = /4ED59071;
 Reference = D1;
 ValeurCmp = 1N5819;
-IdModule  = D3;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -407,9 +407,9 @@ IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F228BE8;
-Reference = P4;
-ValeurCmp = CONN_JTAG;
+TimeStamp = /4F39334F;
+Reference = P3;
+ValeurCmp = CONN_5X2;
 IdModule  = PIN_ARRAY_5x2;
 EndCmp
 
@@ -596,10 +596,10 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F1FAADF;
+TimeStamp = /4F3C7385;
 Reference = RESET_SW1;
 ValeurCmp = B3F-3152;
-IdModule  = ;
+IdModule  = B3F-3xxx;
 EndCmp
 
 BeginCmp
@@ -652,38 +652,38 @@ IdModule  = -P1-10E;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F1F2CE9;
+TimeStamp = /4F3C66D8;
 Reference = USR_SW0;
 ValeurCmp = B3F-3152;
-IdModule  = ;
+IdModule  = B3F-3xxx;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F1F9D78;
+TimeStamp = /4F3C66D1;
 Reference = USR_SW1;
 ValeurCmp = B3F-3152;
-IdModule  = ;
+IdModule  = B3F-3xxx;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F1F9D7F;
+TimeStamp = /4F3C6670;
 Reference = USR_SW2;
 ValeurCmp = B3F-3152;
-IdModule  = ;
+IdModule  = B3F-3xxx;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F1F9D86;
+TimeStamp = /4F3C5837;
 Reference = USR_SW3;
 ValeurCmp = B3F-3152;
-IdModule  = ;
+IdModule  = B3F-3xxx;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F1FA23D;
+TimeStamp = /4F3C7C52;
 Reference = WAKE_SW1;
 ValeurCmp = B3F-3152;
-IdModule  = ;
+IdModule  = B3F-3xxx;
 EndCmp
 
 BeginCmp
