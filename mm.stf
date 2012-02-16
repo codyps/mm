@@ -1,5 +1,5 @@
 comp = "BAT0" module = "JST-ACH-2"
-comp = "BAT1" module = "PIN_ARRAY_2X1"
+comp = "BAT1" module = "JST-ACH-2"
 comp = "C1" module = "SM0805"
 comp = "C2" module = "SM0805"
 comp = "C3" module = "SM0805"
