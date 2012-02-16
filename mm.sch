@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 16 Feb 2012 03:15:17 AM EST
+EESchema Schematic File Version 2  date Thu 16 Feb 2012 04:07:42 AM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -1267,7 +1267,7 @@ U 1 1 4F2FBD55
 P 9950 3500
 F 0 "U5" H 9950 3550 60  0000 C CNN
 F 1 "TPS79333_FIXED" H 9950 3700 60  0000 C CNN
-F 2 "-P1-10E" H 9950 3800 60  0001 C CNN
+F 2 "R-PDSO-G5" H 9950 3800 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps79301.pdf" H 9950 3950 60  0001 C CNN
 F 4 "http://octopart.com/tps79333dbvr-texas+instruments-525272" H 10050 4050 60  0001 C CNN "Octopart"
 F 5 "http://search.digikey.com/us/en/products/TPS79333DBVR/296-12961-1-ND/476149" H 10150 3850 60  0001 C CNN "Digikey"
@@ -1502,11 +1502,12 @@ F 1 "GND" H 1050 6230 30  0001 C CNN
 $EndComp
 NoConn ~ 7800 1250
 $Comp
-L SPST PWR_SW
+L SPST PWR_SW1
 U 1 1 4F221B1C
 P 10000 5550
-F 0 "PWR_SW" H 10000 5800 70  0000 C CNN
+F 0 "PWR_SW1" H 10000 5800 70  0000 C CNN
 F 1 "L102021ML04Q" H 10050 5700 70  0000 C CNN
+F 2 "L102021ML04Q" H 10050 5800 70  0001 C CNN
 F 4 "http://octopart.com/l102021ml04q-itt-7190741" H 10000 5550 60  0001 C CNN "Octopart"
 	1    10000 5550
 	1    0    0    -1  
