@@ -1,0 +1,81 @@
+ Standard Specs for Printed Circuit Boards include:
+	• All holes plated through (PTH) for all hole sizes in the drill program
+	• Non-plated slots and cutouts (plated available on Custom Spec orders)
+	• Green soldermask
+	• FR4 (regular)
+• White legend (silkscreen)
+	• 1 oz. Cu. Inner layers/Up to 2 oz. Cu. Wt. on outer layers
+	• Overall thickness .031" .062", .093", or .125"
+	• Trace/Space to 5/5 mils
+	• Gold fingers
+	• Lead-Free HAL Solder plating finish
+	• Rout Tolerance +/- 0.010”
+	• Hole Tolerance +/- 0.005”
+	• Minimum Hole Size .010"
+	• Fiducials and/or Tooling Holes
+
+
+$33 EACH SPECIFICATIONS
+
+Min. qty. 4, Get 1 EXTRA PCB FREE!
+White Legend (1 or 2 sides)
+Lead Time 5 Days
+1 Part Number Per Order (extra $50 charge for multiple parts or step & repeat)
+2-Layers, FR-4, 0.062", 1 oz. cu. plate
+Max. size 60 sq. inches
+Lead FREE Solder Finish
+No slots (or overlapping drill hits)
+Min. 0.006" line/space
+No Internal routing (cutouts)
+Min. 0.015" hole size
+No scoring, tab rout or drilled hole board separations
+All Holes Plated
+Routed to overall dimensions
+Gren LPI Mask
+Maximum 35 drilled holes Per Sq. Inch
+
+BareBones
+
+2-layer, FR-4, 0.062" thick
+No Mask
+All holes plated
+No Legend
+6 Mil line/gap minimum
+Min. Size 1.25" x 1.25"
+Tin finish over 1 oz. Cu.
+Max. Size 12" x 16" or 192 sq. in.
+No internal routing (cutouts)
+Gerber 274X preferred (274D ok)
+No scoring, tab rout, or drilled hole board separations
+Excellon drill (English Units)
+Cut to rectangle shape only
+Minimum Hole Size 0.015"
+Maximimum 35 drilled holes per sq. inch
+
+
+PCB Tolerances
+
+Inner Layer Clearances 
+We require a minimum of 0.010" inner layer clearance.
+
+
+Copper to Edge of Printed Circuit Board 
+Minimum of 0.010" (outer layers) and 0.015" for inner layers (0.020" preferred
+for inner layers). For scoring, minimum of .015 for outer layers and .020 for
+inner layers.
+
+
+Pad Size/Annular Ring 
+Pad size should be at least + 0.010" over finished hole size for vias and +
+0.014" over finished hole size for component holes. This means the annular
+ring (radius of the pad) should be at least .005" for vias and a minimum of
+0.007" for component holes.
+
+
+Hole Size 
++/- 0.005"  Standard Spec (applies to holes up to .250", larger holes will be
+routed, see Rout tolerances below)
++/- 0.005"  Custom Spec
++/- 0.003" Custom Spec upon request 1 oz and 2 oz finished copper weight and 3
+oz finished copper weight (when starting with 2 oz foil) only.
+
