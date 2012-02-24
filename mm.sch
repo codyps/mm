@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 22 Feb 2012 12:29:18 PM EST
+EESchema Schematic File Version 2  date Thu 23 Feb 2012 06:59:51 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "Flease (2012)"
-Date "22 feb 2012"
+Date "23 feb 2012"
 Rev "1"
 Comp ""
 Comment1 ""
@@ -45,6 +45,69 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L GND #PWR?
+U 1 1 4F46D907
+P 3150 3450
+F 0 "#PWR?" H 3150 3450 30  0001 C CNN
+F 1 "GND" H 3150 3380 30  0001 C CNN
+	1    3150 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F46D901
+P 2400 850
+F 0 "#PWR?" H 2400 850 30  0001 C CNN
+F 1 "GND" H 2400 780 30  0001 C CNN
+	1    2400 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F46D8FB
+P 2400 1250
+F 0 "#PWR?" H 2400 1250 30  0001 C CNN
+F 1 "GND" H 2400 1180 30  0001 C CNN
+	1    2400 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F46D8F5
+P 2400 1650
+F 0 "#PWR?" H 2400 1650 30  0001 C CNN
+F 1 "GND" H 2400 1580 30  0001 C CNN
+	1    2400 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F46D8EF
+P 2400 2050
+F 0 "#PWR?" H 2400 2050 30  0001 C CNN
+F 1 "GND" H 2400 1980 30  0001 C CNN
+	1    2400 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F46D8E9
+P 2400 2450
+F 0 "#PWR?" H 2400 2450 30  0001 C CNN
+F 1 "GND" H 2400 2380 30  0001 C CNN
+	1    2400 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F46D367
+P 1100 3450
+F 0 "#PWR?" H 1100 3450 30  0001 C CNN
+F 1 "GND" H 1100 3380 30  0001 C CNN
+	1    1100 3450
+	1    0    0    -1  
+$EndComp
 Text Label 3050 5550 0    60   ~ 0
 BUTTON_0
 Text Label 3000 5450 0    60   ~ 0
@@ -664,12 +727,6 @@ Wire Wire Line
 Wire Wire Line
 	10750 3450 10450 3450
 Wire Wire Line
-	1750 4400 1750 4350
-Wire Wire Line
-	1750 4350 1950 4350
-Wire Wire Line
-	1950 4350 1950 4400
-Wire Wire Line
 	3050 6000 3050 5550
 Wire Wire Line
 	3050 5550 3500 5550
@@ -1167,42 +1224,6 @@ F 1 "+1.8V" H 8050 5160 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR017
-U 1 1 4F3073F5
-P 1950 4400
-F 0 "#PWR017" H 1950 4400 30  0001 C CNN
-F 1 "GND" H 1950 4330 30  0001 C CNN
-	1    1950 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L AGND #PWR018
-U 1 1 4F3073EF
-P 1750 4400
-F 0 "#PWR018" H 1750 4400 40  0001 C CNN
-F 1 "AGND" H 1750 4330 50  0000 C CNN
-	1    1750 4400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L AGND #PWR019
-U 1 1 4F3072B1
-P 1100 3450
-F 0 "#PWR019" H 1100 3450 40  0001 C CNN
-F 1 "AGND" H 1100 3380 50  0000 C CNN
-	1    1100 3450
-	-1   0    0    -1  
-$EndComp
-$Comp
-L AGND #PWR020
-U 1 1 4F0666A9
-P 3150 3450
-F 0 "#PWR020" H 3150 3450 40  0001 C CNN
-F 1 "AGND" H 3150 3380 50  0000 C CNN
-	1    3150 3450
-	0    1    -1   0   
-$EndComp
-$Comp
 L GND #PWR021
 U 1 1 4F302778
 P 10450 4050
@@ -1566,51 +1587,6 @@ F 1 "12V" V 10950 5650 40  0000 C CNN
 F 2 "JST-ACH-2" V 11050 5650 40  0001 C CNN
 	1    10900 5650
 	1    0    0    -1  
-$EndComp
-$Comp
-L AGND #PWR041
-U 1 1 4F06695C
-P 2400 850
-F 0 "#PWR041" H 2400 850 40  0001 C CNN
-F 1 "AGND" H 2400 780 50  0000 C CNN
-	1    2400 850 
-	-1   0    0    -1  
-$EndComp
-$Comp
-L AGND #PWR042
-U 1 1 4F066957
-P 2400 1250
-F 0 "#PWR042" H 2400 1250 40  0001 C CNN
-F 1 "AGND" H 2400 1180 50  0000 C CNN
-	1    2400 1250
-	-1   0    0    -1  
-$EndComp
-$Comp
-L AGND #PWR043
-U 1 1 4F066951
-P 2400 1650
-F 0 "#PWR043" H 2400 1650 40  0001 C CNN
-F 1 "AGND" H 2400 1580 50  0000 C CNN
-	1    2400 1650
-	-1   0    0    -1  
-$EndComp
-$Comp
-L AGND #PWR044
-U 1 1 4F06694E
-P 2400 2450
-F 0 "#PWR044" H 2400 2450 40  0001 C CNN
-F 1 "AGND" H 2400 2380 50  0000 C CNN
-	1    2400 2450
-	-1   0    0    -1  
-$EndComp
-$Comp
-L AGND #PWR045
-U 1 1 4F066940
-P 2400 2050
-F 0 "#PWR045" H 2400 2050 40  0001 C CNN
-F 1 "AGND" H 2400 1980 50  0000 C CNN
-	1    2400 2050
-	-1   0    0    -1  
 $EndComp
 NoConn ~ 4400 2650
 NoConn ~ 4500 2650
