@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Sat 25 Feb 2012 04:22:34 AM EST
+PCBNEW-BOARD Version 1 date Sat 25 Feb 2012 01:52:58 PM EST
 
 # Created by Pcbnew(2011-nov-30)-testing
 
@@ -10,7 +10,7 @@ EnabledLayers 1FFF8001
 Links 254
 NoConn 0
 Di 99120 30511 138732 88288
-Ndraw 11
+Ndraw 12
 Ntrack 1386
 Nzone 0
 BoardThickness 630
@@ -61,8 +61,8 @@ TextModWidth 120
 PadSize 669 551
 PadDrill 0
 Pad2MaskClearance 100
-AuxiliaryAxisOrg 0 0
-PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+AuxiliaryAxisOrg 103937 82677
+PcbPlotParams (pcbplotparams (layerselection 284196865) (usegerberextensions true) (excludeedgelayer false) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue false) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory p1))
 $EndSETUP
 
 $EQUIPOT
@@ -6077,6 +6077,11 @@ Ne 0 ""
 Po -1486 -925
 $EndPAD
 $EndMODULE  JST-ACH-3
+$TEXTPCB
+Te "Cody Schafer"
+Po 108366 80807 600 800 120 0
+De 21 1 0 Normal C
+$EndTEXTPCB
 $DRAWSEGMENT
 Po 0 105118 82677 105118 62598 150
 De 24 0 900 0 0
