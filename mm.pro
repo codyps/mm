@@ -1,10 +1,5 @@
-update=Thu 16 Feb 2012 03:16:06 AM EST
-last_client=kicad
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+update=Sun 26 Feb 2012 10:35:15 PM EST
+last_client=cvpcb
 [eeschema]
 version=1
 LibDir=
@@ -66,7 +61,6 @@ TxtLar=120
 MSegLar=150
 LastNetListRead=mm.net
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -79,5 +73,11 @@ LibName9=led
 LibName10=dip_sockets
 LibName11=ref-packages
 LibName12=mm
+LibDir=
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
