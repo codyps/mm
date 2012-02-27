@@ -1,51 +1,75 @@
-# EESchema Netlist Version 1.1 created  Fri 24 Feb 2012 05:26:46 PM EST
+# EESchema Netlist Version 1.1 created  Sun 26 Feb 2012 09:57:06 PM EST
 (
+ ( /4F4B2BFB $noname  P4 CONN_2 {Lib=CONN_2}
+  (    1 N-000086 )
+  (    2 N-000060 )
+ )
+ ( /4F4B0349 $noname  R27 10k {Lib=R}
+  (    1 GND )
+  (    2 N-000059 )
+ )
+ ( /4F48B855 SM0805  C15 0.1uF {Lib=CP1}
+  (    1 N-000049 )
+  (    2 GND )
+ )
+ ( /4F48B189 SM0805  C16 0.1uF {Lib=CP1}
+  (    1 N-000058 )
+  (    2 GND )
+ )
+ ( /4F48ABAB SM0805  C10 0.1uF {Lib=CP1}
+  (    1 ? )
+  (    2 GND )
+ )
+ ( /4F48A6B7 SM0805  C9 0.1uF {Lib=CP1}
+  (    1 ? )
+  (    2 GND )
+ )
  ( /4ED58E0F R-PSFM-G5  U1 TL2575 {Lib=TL2575}
   (    1 +BATT )
-  (    2 N-000081 )
+  (    2 N-000084 )
   (    3 GND )
-  (    4 N-000083 )
+  (    4 N-000091 )
   (    5 GND )
   (    6 GND )
  )
  ( /4F38D444 ABMM  X1 ABMM_16MHz {Lib=ABMM}
-  (    1 N-000090 )
+  (    1 N-000088 )
   (    2 GND )
-  (    3 N-000063 )
+  (    3 N-000057 )
   (    4 GND )
  )
  ( /4F3C7C52 B3F-3xxx  WAKE_SW1 B3F-3152 {Lib=B3F-3XXX}
-  (    1 N-000091 )
+  (    1 N-000048 )
   (    2 GND )
   (    3 GND )
   (    4 GND )
  )
  ( /4F3C7385 B3F-3xxx  RESET_SW1 B3F-3152 {Lib=B3F-3XXX}
-  (    1 N-000066 )
-  (    2 GND )
-  (    3 GND )
-  (    4 GND )
- )
- ( /4F3C66D8 B3F-3xxx  USR_SW0 B3F-3152 {Lib=B3F-3XXX}
-  (    1 N-000030 )
-  (    2 GND )
-  (    3 GND )
-  (    4 GND )
- )
- ( /4F3C66D1 B3F-3xxx  USR_SW1 B3F-3152 {Lib=B3F-3XXX}
   (    1 N-000085 )
   (    2 GND )
   (    3 GND )
   (    4 GND )
  )
+ ( /4F3C66D8 B3F-3xxx  USR_SW0 B3F-3152 {Lib=B3F-3XXX}
+  (    1 N-000090 )
+  (    2 GND )
+  (    3 GND )
+  (    4 GND )
+ )
+ ( /4F3C66D1 B3F-3xxx  USR_SW1 B3F-3152 {Lib=B3F-3XXX}
+  (    1 N-000098 )
+  (    2 GND )
+  (    3 GND )
+  (    4 GND )
+ )
  ( /4F3C6670 B3F-3xxx  USR_SW2 B3F-3152 {Lib=B3F-3XXX}
-  (    1 N-000038 )
+  (    1 N-000025 )
   (    2 GND )
   (    3 GND )
   (    4 GND )
  )
  ( /4F3C5837 B3F-3xxx  USR_SW3 B3F-3152 {Lib=B3F-3XXX}
-  (    1 N-000093 )
+  (    1 N-000026 )
   (    2 GND )
   (    3 GND )
   (    4 GND )
@@ -63,16 +87,16 @@
   (   10 GND )
  )
  ( /4F38E60E AB26TRB  X2 AB26TRB_32.768kHz {Lib=AB26TRB}
-  (    1 N-000099 )
-  (    2 N-000084 )
+  (    1 N-000049 )
+  (    2 N-000058 )
   (    3 GND )
  )
  ( /4F38CD6C LED-1206  D9 LED {Lib=LED}
-  (    1 N-000062 )
-  (    2 N-000035 )
+  (    1 N-000031 )
+  (    2 N-000032 )
  )
  ( /4F38CD66 SM0805  R26 1K {Lib=R}
-  (    1 N-000035 )
+  (    1 N-000032 )
   (    2 GND )
  )
  ( /4F33CC6E SM0805  R18 10k {Lib=R}
@@ -84,7 +108,7 @@
   (    2 GND )
  )
  ( /4F33AAB1 SM0805  R23 470 {Lib=R}
-  (    1 N-000093 )
+  (    1 N-000026 )
   (    2 /BUTTON_3 )
  )
  ( /4F339FB3 SM0805  C30 10nF {Lib=CP1}
@@ -97,7 +121,7 @@
  )
  ( /4F3391ED SM0805  R22 470 {Lib=R}
   (    1 /BUTTON_2 )
-  (    2 N-000038 )
+  (    2 N-000025 )
  )
  ( /4F337E81 SM0805  R21 10k {Lib=R}
   (    1 +3.3V )
@@ -108,7 +132,7 @@
   (    2 GND )
  )
  ( /4F336ED6 SM0805  R24 470 {Lib=R}
-  (    1 N-000085 )
+  (    1 N-000098 )
   (    2 /BUTTON_1 )
  )
  ( /4F336A54 SM0805  C4 10nF {Lib=CP1}
@@ -120,27 +144,27 @@
   (    2 /BUTTON_0 )
  )
  ( /4F3360FC SM0805  R25 470 {Lib=R}
-  (    1 N-000030 )
+  (    1 N-000090 )
   (    2 /BUTTON_0 )
  )
  ( /4F30D8CA SM0805  R16 1K {Lib=R}
-  (    1 N-000032 )
+  (    1 N-000044 )
   (    2 GND )
  )
  ( /4F30C133 SM0805  R15 1K {Lib=R}
-  (    1 N-000033 )
+  (    1 N-000045 )
   (    2 GND )
  )
  ( /4F30B599 LED-1206  D7 LED {Lib=LED}
   (    1 +3.3V )
-  (    2 N-000033 )
+  (    2 N-000045 )
  )
  ( /4F30B36A LED-1206  D8 LED {Lib=LED}
   (    1 +5V )
-  (    2 N-000032 )
+  (    2 N-000044 )
  )
  ( /4F302772 SM0805  C2 0.01uF {Lib=C}
-  (    1 N-000051 )
+  (    1 N-000033 )
   (    2 GND )
  )
  ( /4F301E2F SM0805  C3 2.2uF {Lib=C}
@@ -155,7 +179,7 @@
   (    1 +5V )
   (    2 GND )
   (    3 +5V )
-  (    4 N-000051 )
+  (    4 N-000033 )
   (    5 +3.3V )
  )
  ( /4F2B4B94 SM0805  R13 100 {Lib=R}
@@ -180,7 +204,7 @@
  )
  ( /4F221B1C L102021ML04Q  PWR_SW1 L102021ML04Q {Lib=SPST}
   (    1 +BATT )
-  (    2 N-000022 )
+  (    2 N-000021 )
  )
  ( /4F1F5CF0 -SOD123  D6 ZENERSMALL {Lib=ZENERSMALL}
   (    1 GND )
@@ -203,7 +227,7 @@
   (    2 /IR0 )
  )
  ( /4F066A6A JST-ACH-2  BAT0 12V {Lib=CONN_2}
-  (    1 N-000022 )
+  (    1 N-000021 )
   (    2 GND )
  )
  ( /4F037794 SM0805  C7 0.1uF {Lib=CP1}
@@ -212,23 +236,23 @@
  )
  ( /4F066321 SM0805  R11 100 {Lib=R}
   (    1 /IR3 )
-  (    2 N-000055 )
+  (    2 N-000052 )
  )
  ( /4F06631F SM0805  R9 100 {Lib=R}
   (    1 /IR1 )
-  (    2 N-000057 )
+  (    2 N-000053 )
  )
  ( /4F06631D SM0805  R10 100 {Lib=R}
   (    1 /IR2 )
-  (    2 N-000056 )
+  (    2 N-000050 )
  )
  ( /4F06631A SM0805  R12 100 {Lib=R}
   (    1 /IR4 )
-  (    2 N-000054 )
+  (    2 N-000051 )
  )
  ( /4F066316 SM0805  R8 100 {Lib=R}
   (    1 /IR0 )
-  (    2 N-000058 )
+  (    2 N-000054 )
  )
  ( /4F037F3C JST-ACH-2  BAT1 1.8V {Lib=BATTERY}
   (    1 +1.8V )
@@ -263,7 +287,7 @@
   (    2 GND )
  )
  ( /4F036E9B SM0805  R3 470 {Lib=R}
-  (    1 N-000066 )
+  (    1 N-000085 )
   (    2 /RESET )
  )
  ( /4F036E63 SM0805  C6 10nF {Lib=CP1}
@@ -288,19 +312,19 @@
  )
  ( /4ED591EB MURATAPS-1200RS  L1 20uH {Lib=INDUCTOR}
   (    1 +5V )
-  (    2 N-000083 )
+  (    2 N-000091 )
  )
  ( /4ED590E2 SMDHD/VF  C5out1 330uF {Lib=CP1}
-  (    1 N-000083 )
+  (    1 N-000091 )
   (    2 GND )
  )
  ( /4ED59071 SM0805  D1 1N5819 {Lib=DIODESCH}
   (    1 GND )
-  (    2 N-000081 )
+  (    2 N-000084 )
  )
  ( /4ED59045 MURATAPS-1200RS  L2 330uH {Lib=INDUCTOR}
-  (    1 N-000083 )
-  (    2 N-000081 )
+  (    1 N-000091 )
+  (    2 N-000084 )
  )
  ( /4ED58FC6 SMDHD/VF  CBIN1 100uF {Lib=CP1}
   (    1 +BATT )
@@ -313,27 +337,27 @@
  ( /4EB9DD8C JST-ACH-3  K5 CONN_3 {Lib=CONN_3}
   (    1 GND )
   (    2 +5V )
-  (    3 N-000054 )
+  (    3 N-000051 )
  )
  ( /4EB9DD8A JST-ACH-3  K4 CONN_3 {Lib=CONN_3}
   (    1 GND )
   (    2 +5V )
-  (    3 N-000055 )
+  (    3 N-000052 )
  )
  ( /4EB9DD85 JST-ACH-3  K3 CONN_3 {Lib=CONN_3}
   (    1 GND )
   (    2 +5V )
-  (    3 N-000056 )
+  (    3 N-000050 )
  )
  ( /4EB9DD76 JST-ACH-3  K2 CONN_3 {Lib=CONN_3}
   (    1 GND )
   (    2 +5V )
-  (    3 N-000057 )
+  (    3 N-000053 )
  )
  ( /4EB9DD69 JST-ACH-3  K1 CONN_3 {Lib=CONN_3}
   (    1 GND )
   (    2 +5V )
-  (    3 N-000058 )
+  (    3 N-000054 )
  )
  ( /4E94E559 -LQFP100  U2 LM3S3748 {Lib=LM3S3748}
   (    1 /IR0 )
@@ -361,8 +385,8 @@
   (   23 /BUTTON_2 )
   (   24 /BUTTON_1 )
   (   25 /BUTTON_0 )
-  (   26 ? )
-  (   27 ? )
+  (   26 N-000060 )
+  (   27 N-000086 )
   (   28 ? )
   (   29 ? )
   (   30 ? )
@@ -372,7 +396,7 @@
   (   34 ? )
   (   35 ? )
   (   36 ? )
-  (   37 N-000062 )
+  (   37 N-000031 )
   (   38 +2.5V )
   (   39 GND )
   (   40 ? )
@@ -383,12 +407,12 @@
   (   45 GND )
   (   46 /StepperDriver2/STEP )
   (   47 ? )
-  (   48 N-000090 )
-  (   49 N-000063 )
-  (   50 N-000091 )
+  (   48 N-000088 )
+  (   49 N-000057 )
+  (   50 N-000048 )
   (   51 /3V3_EN )
-  (   52 N-000099 )
-  (   53 N-000084 )
+  (   52 N-000049 )
+  (   53 N-000058 )
   (   54 GND )
   (   55 +1.8V )
   (   56 +3.3V )
@@ -408,7 +432,7 @@
   (   70 ? )
   (   71 ? )
   (   72 /StepperDriver1/MODE2 )
-  (   73 ? )
+  (   73 N-000059 )
   (   74 ? )
   (   75 ? )
   (   76 /StepperDriver1/nHOME )
@@ -438,19 +462,19 @@
   (  100 /IR4 )
  )
  ( /4F03B8BC/4F2A663A SM0805  R1 1 {Lib=R}
-  (    1 N-000111 )
+  (    1 N-000113 )
   (    2 GND )
  )
  ( /4F03B8BC/4F038430 -R-PDSO-G28  U4 DRV8824 {Lib=DRV8824}
-  (    1 N-000118 )
-  (    2 N-000116 )
-  (    3 N-000117 )
+  (    1 N-000120 )
+  (    2 N-000118 )
+  (    3 N-000119 )
   (    4 +BATT )
   (    5 /StepperDriver1/MTR_1 )
-  (    6 N-000111 )
+  (    6 N-000113 )
   (    7 /StepperDriver1/MTR_2 )
   (    8 /StepperDriver1/MTR_4 )
-  (    9 N-000110 )
+  (    9 N-000112 )
   (   10 /StepperDriver1/MTR_3 )
   (   11 +BATT )
   (   12 /StepperDriver1/V3P3OUT )
@@ -480,8 +504,8 @@
   (    2 GND )
  )
  ( /4F03B8BC/4F03842A SM1812  C27 0.47uF_50V {Lib=C}
-  (    1 N-000118 )
-  (    2 N-000116 )
+  (    1 N-000120 )
+  (    2 N-000118 )
  )
  ( /4F03B8BC/4F038429 MOLEX-5024940470  P2 MTR_CONN {Lib=CONN_4}
   (    1 /StepperDriver1/MTR_1 )
@@ -490,27 +514,27 @@
   (    4 /StepperDriver1/MTR_4 )
  )
  ( /4F03B8BC/4F038428 SM0805  C28 0.01uF {Lib=C}
-  (    1 N-000117 )
+  (    1 N-000119 )
   (    2 +BATT )
  )
  ( /4F03B8BC/4F038423 SM0805  R7 1 {Lib=R}
-  (    1 N-000110 )
+  (    1 N-000112 )
   (    2 GND )
  )
  ( /4F03B886/4F2A663A SM0805  R2 1 {Lib=R}
-  (    1 N-000101 )
+  (    1 N-000103 )
   (    2 GND )
  )
  ( /4F03B886/4F038430 -R-PDSO-G28  U3 DRV8824 {Lib=DRV8824}
-  (    1 N-000108 )
-  (    2 N-000106 )
-  (    3 N-000107 )
+  (    1 N-000110 )
+  (    2 N-000108 )
+  (    3 N-000109 )
   (    4 +BATT )
   (    5 /StepperDriver2/MTR_1 )
-  (    6 N-000101 )
+  (    6 N-000103 )
   (    7 /StepperDriver2/MTR_2 )
   (    8 /StepperDriver2/MTR_4 )
-  (    9 N-000100 )
+  (    9 N-000102 )
   (   10 /StepperDriver2/MTR_3 )
   (   11 +BATT )
   (   12 /StepperDriver2/V3P3OUT )
@@ -540,8 +564,8 @@
   (    2 GND )
  )
  ( /4F03B886/4F03842A SM1812  C23 0.47uF_50V {Lib=C}
-  (    1 N-000108 )
-  (    2 N-000106 )
+  (    1 N-000110 )
+  (    2 N-000108 )
  )
  ( /4F03B886/4F038429 MOLEX-5024940470  P1 MTR_CONN {Lib=CONN_4}
   (    1 /StepperDriver2/MTR_1 )
@@ -550,16 +574,39 @@
   (    4 /StepperDriver2/MTR_4 )
  )
  ( /4F03B886/4F038428 SM0805  C24 0.01uF {Lib=C}
-  (    1 N-000107 )
+  (    1 N-000109 )
   (    2 +BATT )
  )
  ( /4F03B886/4F038423 SM0805  R5 1 {Lib=R}
-  (    1 N-000100 )
+  (    1 N-000102 )
   (    2 GND )
  )
 )
 *
 { Allowed footprints by component:
+$component R27
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C15
+ CP*
+ SM*
+$endlist
+$component C16
+ CP*
+ SM*
+$endlist
+$component C10
+ CP*
+ SM*
+$endlist
+$component C9
+ CP*
+ SM*
+$endlist
 $component U1
  R-PSFM-G5
 $endlist
@@ -976,429 +1023,445 @@ $endfootprintlist
 }
 { Pin List by Nets
 Net 2 "GND" "GND"
- U1 5
- BAT1 2
- C17 2
- U1 3
- U5 2
- C1 2
- K5 1
- Cir1 1
- U2 33
- WAKE_SW1 2
- U2 82
- X1 4
- C3 2
- X1 2
- U1 6
- U2 21
- CBIN1 2
- C2 2
- USR_SW3 2
- C5out1 2
- D1 1
- U2 54
- U2 45
- USR_SW3 4
- U2 15
- U2 94
- USR_SW3 3
- C18 2
- P3 2
- U2 63
- P3 10
- U2 69
- C19 2
- C11 2
- C13 2
- X2 3
- C8 2
- C14 2
- K1 1
- USR_SW0 4
- U2 4
- WAKE_SW1 3
- USR_SW1 2
- USR_SW1 3
- USR_SW1 4
+ Cflat1 2
  U2 9
  USR_SW2 2
- K2 1
  USR_SW2 3
- K3 1
+ U2 21
  USR_SW2 4
+ USR_SW1 4
+ USR_SW3 3
+ USR_SW3 4
+ C3 2
  K4 1
- RESET_SW1 3
- U2 39
- WAKE_SW1 4
+ K5 1
+ USR_SW3 2
+ Cir1 1
+ USR_SW0 4
+ USR_SW1 2
+ U2 33
+ USR_SW1 3
+ U2 82
  RESET_SW1 2
- U2 87
+ RESET_SW1 3
  RESET_SW1 4
- U2 57
  USR_SW0 2
  USR_SW0 3
- C25 2
- U4 28
- C26 1
+ WAKE_SW1 4
+ C5 2
+ C18 2
+ U5 2
+ C1 2
+ K3 1
+ U1 3
+ U1 5
+ U1 6
+ X1 2
+ X1 4
+ C2 2
+ WAKE_SW1 2
+ R15 2
+ WAKE_SW1 3
+ R16 2
+ C17 2
+ C16 2
+ C10 2
+ U2 45
+ C9 2
+ U2 94
+ U2 54
+ C14 2
+ C11 2
+ C13 2
+ C19 2
+ C8 2
+ U2 57
+ BAT1 2
+ CBIN1 2
+ U2 4
+ C5out1 2
+ K1 1
+ D1 1
+ K2 1
+ R27 1
+ C15 2
+ U2 63
+ U2 15
+ U2 69
+ U2 39
+ U2 87
+ U3 14
+ R5 2
  R1 2
- C6 2
- Cir2 1
- R4 2
  C7 2
- BAT0 2
- U4 14
+ R2 2
+ U3 28
+ C22 1
+ C21 2
  R7 2
+ D5 1
+ BAT0 2
  D2 1
  D3 1
  D4 1
- D5 1
+ U4 14
+ U4 28
+ C26 1
  D6 1
- C5 2
- R2 2
- U3 28
- R15 2
- R26 2
- R16 2
- C22 1
- C30 2
- C29 2
- Cflat1 2
- R5 2
- U3 14
+ Cir2 1
+ C25 2
+ R4 2
  C4 2
+ P3 2
  C12 2
- C21 2
-Net 20 "+3.3V" "+3.3V"
- R17 1
+ C29 2
+ R26 2
+ C6 2
+ X2 3
+ P3 10
+ C30 2
+Net 19 "+3.3V" "+3.3V"
  C18 1
- R18 1
- R19 1
- D7 1
- R13 2
- R14 2
- C7 1
- R6 2
- C11 1
- R21 1
- R20 1
- U2 68
- P3 4
- U2 93
- U2 8
- U2 44
- U2 3
- U2 56
- C19 1
- C3 1
- U5 5
+ R17 1
  U2 81
+ D7 1
+ C3 1
  U2 20
  U2 32
-Net 22 "" ""
+ U2 3
+ C7 1
+ R18 1
+ R19 1
+ R21 1
+ U5 5
+ R13 2
+ U2 93
+ U2 44
+ U2 56
+ C19 1
+ R20 1
+ P3 4
+ C11 1
+ U2 68
+ U2 8
+ R6 2
+ R14 2
+Net 21 "" ""
  PWR_SW1 2
  BAT0 1
-Net 23 "+2.5V" "+2.5V"
- C8 1
- C13 1
+Net 22 "+2.5V" "+2.5V"
  C14 1
- U2 14
  U2 88
- U2 38
- U2 62
- U2 7
- C17 1
  C5 1
-Net 24 "/StepperDriver1/MODE2" "MODE2"
+ U2 62
+ U2 14
+ C17 1
+ C8 1
+ U2 7
+ U2 38
+ C13 1
+Net 23 "/StepperDriver1/MODE2" "MODE2"
  U2 72
  U4 26
-Net 25 "/StepperDriver1/MODE1" "MODE1"
- U2 67
- U4 25
-Net 26 "/StepperDriver1/MODE0" "MODE0"
- U2 66
- U4 24
-Net 27 "/StepperDriver1/STEP" "STEP"
- U2 43
- U4 22
-Net 28 "/StepperDriver1/DIR" "DIR"
- U4 20
- U2 65
-Net 29 "/StepperDriver1/nHOME" "nHOME"
- U4 27
- U2 76
-Net 30 "" ""
- R25 1
- USR_SW0 1
-Net 31 "/BUTTON_1" "BUTTON_1"
- U2 24
- R21 2
- R24 2
- C12 1
-Net 32 "" ""
- R16 1
- D8 2
-Net 33 "" ""
- R15 1
- D7 2
-Net 34 "+5V" "+5V"
- U5 3
- L1 1
- Cflat1 1
- C1 1
- K4 2
- Cir2 2
- K2 2
- K1 2
- K5 2
- U5 1
- K3 2
- D8 1
- Cir1 2
-Net 35 "" ""
- R26 1
- D9 2
-Net 36 "/BUTTON_3" "BUTTON_3"
- U2 22
- C29 1
- R23 2
- R18 2
-Net 37 "/BUTTON_2" "BUTTON_2"
+Net 24 "/BUTTON_2" "BUTTON_2"
  C30 1
  U2 23
  R22 1
  R19 2
-Net 38 "" ""
+Net 25 "" ""
  USR_SW2 1
  R22 2
-Net 49 "+BATT" "+BATT"
- CBIN1 1
- U4 4
- PWR_SW1 1
- U4 11
+Net 26 "" ""
+ USR_SW3 1
+ R23 1
+Net 27 "/BUTTON_1" "BUTTON_1"
+ U2 24
+ R24 2
+ C12 1
+ R21 2
+Net 28 "/BUTTON_0" "BUTTON_0"
+ R20 2
+ R25 2
+ U2 25
+ C4 1
+Net 31 "" ""
+ U2 37
+ D9 1
+Net 32 "" ""
+ D9 2
+ R26 1
+Net 33 "" ""
+ C2 1
+ U5 4
+Net 36 "+5V" "+5V"
+ U5 1
+ U5 3
+ Cflat1 1
+ K1 2
+ K2 2
+ K3 2
+ L1 1
+ D8 1
+ K4 2
+ K5 2
+ Cir1 2
+ C1 1
+ Cir2 2
+Net 43 "+BATT" "+BATT"
  U1 1
  U3 11
+ U4 11
  U3 4
+ PWR_SW1 1
  C24 2
+ U4 4
+ CBIN1 1
  C28 2
-Net 50 "+1.8V" "+1.8V"
- BAT1 1
- U2 55
+Net 44 "" ""
+ R16 1
+ D8 2
+Net 45 "" ""
+ R15 1
+ D7 2
+Net 46 "/StepperDriver1/MODE1" "MODE1"
+ U2 67
+ U4 25
+Net 47 "+1.8V" "+1.8V"
  RPU1 1
-Net 51 "" ""
- U5 4
- C2 1
-Net 52 "/StepperDriver1/nFAULT" "nFAULT"
- U2 86
- U4 18
-Net 53 "/StepperDriver2/nHOME" "nHOME"
- U3 27
- U2 41
-Net 54 "" ""
- K5 3
- R12 2
-Net 55 "" ""
- R11 2
- K4 3
-Net 56 "" ""
+ U2 55
+ BAT1 1
+Net 48 "" ""
+ WAKE_SW1 1
+ U2 50
+Net 49 "" ""
+ X2 1
+ C15 1
+ U2 52
+Net 50 "" ""
  K3 3
  R10 2
-Net 57 "" ""
+Net 51 "" ""
+ R12 2
+ K5 3
+Net 52 "" ""
+ R11 2
+ K4 3
+Net 53 "" ""
  R9 2
  K2 3
-Net 58 "" ""
- K1 3
+Net 54 "" ""
  R8 2
-Net 59 "/IR1" "IR1"
- U2 2
- D3 2
- R9 1
-Net 60 "/IR3" "IR3"
- U2 6
- R11 1
- D5 2
-Net 61 "/StepperDriver2/nRESET" "nRESET"
- U3 16
- U2 17
-Net 62 "" ""
- D9 1
- U2 37
-Net 63 "" ""
+ K1 3
+Net 55 "/IR2" "IR2"
+ R10 1
+ U2 5
+ D4 2
+Net 56 "/TDO" "TDO"
+ U2 77
+ P3 3
+ R14 1
+Net 57 "" ""
  U2 49
  X1 3
-Net 64 "/StepperDriver1/nENBL" "nENBL"
+Net 58 "" ""
+ C16 1
+ X2 2
+ U2 53
+Net 59 "" ""
+ U2 73
+ R27 2
+Net 60 "" ""
+ P4 2
+ U2 26
+Net 61 "/RESET" "RESET"
+ U2 64
+ R3 2
+ C6 1
+ R17 2
+Net 62 "/StepperDriver2/STEP" "STEP"
+ U2 46
+ U3 22
+Net 63 "/StepperDriver1/MODE0" "MODE0"
+ U2 66
+ U4 24
+Net 64 "/StepperDriver1/STEP" "STEP"
+ U4 22
+ U2 43
+Net 65 "/StepperDriver1/DIR" "DIR"
+ U4 20
+ U2 65
+Net 66 "/StepperDriver1/nENBL" "nENBL"
  U2 83
  U4 21
-Net 65 "/StepperDriver2/nENBL" "nENBL"
- U3 21
- U2 16
-Net 66 "" ""
- RESET_SW1 1
- R3 1
-Net 67 "/StepperDriver1/nSLEEP" "nSLEEP"
- U4 17
+Net 67 "/StepperDriver1/nHOME" "nHOME"
+ U4 27
+ U2 76
+Net 68 "/StepperDriver1/nFAULT" "nFAULT"
+ U2 86
+ U4 18
+Net 69 "/StepperDriver1/nSLEEP" "nSLEEP"
  U2 85
-Net 68 "/StepperDriver1/nRESET" "nRESET"
- U2 84
+ U4 17
+Net 70 "/StepperDriver1/nRESET" "nRESET"
  U4 16
-Net 69 "/StepperDriver1/DECAY" "DECAY"
+ U2 84
+Net 71 "/StepperDriver1/DECAY" "DECAY"
  U2 92
  U4 19
-Net 70 "/StepperDriver1/V3P3OUT" "V3P3OUT"
+Net 72 "/StepperDriver1/V3P3OUT" "V3P3OUT"
  U4 15
  U4 13
  U4 12
  C25 1
  C26 2
-Net 71 "/StepperDriver2/MODE2" "MODE2"
+Net 73 "/StepperDriver2/MODE2" "MODE2"
  U3 26
  U2 12
-Net 72 "/StepperDriver2/MODE1" "MODE1"
- U2 11
+Net 74 "/StepperDriver2/MODE1" "MODE1"
  U3 25
-Net 73 "/StepperDriver2/MODE0" "MODE0"
- U2 10
+ U2 11
+Net 75 "/StepperDriver2/MODE0" "MODE0"
  U3 24
-Net 74 "/StepperDriver2/STEP" "STEP"
- U2 46
- U3 22
-Net 75 "/StepperDriver2/DIR" "DIR"
- U3 20
+ U2 10
+Net 76 "/StepperDriver2/DIR" "DIR"
  U2 13
-Net 76 "/StepperDriver2/nFAULT" "nFAULT"
- U2 19
+ U3 20
+Net 77 "/StepperDriver2/nENBL" "nENBL"
+ U2 16
+ U3 21
+Net 78 "/StepperDriver2/nHOME" "nHOME"
+ U3 27
+ U2 41
+Net 79 "/StepperDriver2/nFAULT" "nFAULT"
  U3 18
-Net 77 "/StepperDriver2/nSLEEP" "nSLEEP"
+ U2 19
+Net 80 "/StepperDriver2/nSLEEP" "nSLEEP"
  U2 18
  U3 17
-Net 78 "/StepperDriver2/DECAY" "DECAY"
+Net 81 "/StepperDriver2/nRESET" "nRESET"
+ U3 16
+ U2 17
+Net 82 "/StepperDriver2/DECAY" "DECAY"
  U2 97
  U3 19
-Net 79 "/StepperDriver2/V3P3OUT" "V3P3OUT"
+Net 83 "/StepperDriver2/V3P3OUT" "V3P3OUT"
+ U3 15
  C22 2
  U3 12
  C21 1
  U3 13
- U3 15
-Net 80 "/RESET" "RESET"
- U2 64
- R3 2
- C6 1
- R17 2
-Net 81 "" ""
- U1 2
- D1 2
+Net 84 "" ""
  L2 2
-Net 82 "/3V3_EN" "3V3_EN"
+ D1 2
+ U1 2
+Net 85 "" ""
+ RESET_SW1 1
+ R3 1
+Net 86 "" ""
+ P4 1
+ U2 27
+Net 87 "/3V3_EN" "3V3_EN"
  RPU1 2
  U2 51
-Net 83 "" ""
- L2 1
- C5out1 1
- U1 4
- L1 2
-Net 84 "" ""
- U2 53
- X2 2
-Net 85 "" ""
- USR_SW1 1
- R24 1
-Net 86 "/IR0" "IR0"
- D2 2
- R8 1
- U2 1
-Net 87 "/IR2" "IR2"
- U2 5
- R10 1
- D4 2
-Net 88 "/BUTTON_0" "BUTTON_0"
- R25 2
- R20 2
- C4 1
- U2 25
-Net 89 "/IR4" "IR4"
- R12 1
- D6 2
- U2 100
-Net 90 "" ""
- X1 1
+Net 88 "" ""
  U2 48
-Net 91 "" ""
- U2 50
- WAKE_SW1 1
-Net 92 "/TDI" "TDI"
+ X1 1
+Net 89 "/TDI" "TDI"
  R6 1
  P3 9
  U2 78
-Net 93 "" ""
- USR_SW3 1
- R23 1
-Net 96 "/TCK" "TCK"
- U2 80
+Net 90 "" ""
+ USR_SW0 1
+ R25 1
+Net 91 "" ""
+ L1 2
+ C5out1 1
+ L2 1
+ U1 4
+Net 92 "/IR4" "IR4"
+ U2 100
+ D6 2
+ R12 1
+Net 93 "/IR1" "IR1"
+ R9 1
+ D3 2
+ U2 2
+Net 96 "/BUTTON_3" "BUTTON_3"
+ U2 22
+ C29 1
+ R18 2
+ R23 2
+Net 97 "/IR3" "IR3"
+ U2 6
+ R11 1
+ D5 2
+Net 98 "" ""
+ USR_SW1 1
+ R24 1
+Net 99 "/TCK" "TCK"
  R13 1
+ U2 80
  P3 1
-Net 97 "/TMS" "TMS"
+Net 100 "/TMS" "TMS"
  U2 79
  P3 5
  R4 1
-Net 98 "/TDO" "TDO"
- R14 1
- P3 3
- U2 77
-Net 99 "" ""
- U2 52
- X2 1
-Net 100 "" ""
- R5 1
+Net 101 "/IR0" "IR0"
+ D2 2
+ U2 1
+ R8 1
+Net 102 "" ""
  U3 9
-Net 101 "" ""
- U3 6
+ R5 1
+Net 103 "" ""
  R2 1
-Net 102 "/StepperDriver2/MTR_4" "MTR_4"
+ U3 6
+Net 104 "/StepperDriver2/MTR_4" "MTR_4"
  U3 8
  P1 4
-Net 103 "/StepperDriver2/MTR_3" "MTR_3"
- U3 10
+Net 105 "/StepperDriver2/MTR_3" "MTR_3"
  P1 3
-Net 104 "/StepperDriver2/MTR_2" "MTR_2"
- U3 7
+ U3 10
+Net 106 "/StepperDriver2/MTR_2" "MTR_2"
  P1 2
-Net 105 "/StepperDriver2/MTR_1" "MTR_1"
+ U3 7
+Net 107 "/StepperDriver2/MTR_1" "MTR_1"
  P1 1
  U3 5
-Net 106 "" ""
- U3 2
- C23 2
-Net 107 "" ""
- U3 3
- C24 1
 Net 108 "" ""
- U3 1
- C23 1
+ C23 2
+ U3 2
+Net 109 "" ""
+ C24 1
+ U3 3
 Net 110 "" ""
- U4 9
+ C23 1
+ U3 1
+Net 112 "" ""
  R7 1
-Net 111 "" ""
- U4 6
+ U4 9
+Net 113 "" ""
  R1 1
-Net 112 "/StepperDriver1/MTR_4" "MTR_4"
- U4 8
+ U4 6
+Net 114 "/StepperDriver1/MTR_4" "MTR_4"
  P2 4
-Net 113 "/StepperDriver1/MTR_3" "MTR_3"
+ U4 8
+Net 115 "/StepperDriver1/MTR_3" "MTR_3"
  P2 3
  U4 10
-Net 114 "/StepperDriver1/MTR_2" "MTR_2"
- U4 7
+Net 116 "/StepperDriver1/MTR_2" "MTR_2"
  P2 2
-Net 115 "/StepperDriver1/MTR_1" "MTR_1"
- U4 5
+ U4 7
+Net 117 "/StepperDriver1/MTR_1" "MTR_1"
  P2 1
-Net 116 "" ""
- U4 2
+ U4 5
+Net 118 "" ""
  C27 2
-Net 117 "" ""
+ U4 2
+Net 119 "" ""
  U4 3
  C28 1
-Net 118 "" ""
+Net 120 "" ""
  U4 1
  C27 1
 }
