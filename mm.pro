@@ -1,5 +1,5 @@
-update=Sun 26 Feb 2012 10:35:15 PM EST
-last_client=cvpcb
+update=Thu 08 Mar 2012 02:34:50 AM EST
+last_client=kicad
 [eeschema]
 version=1
 LibDir=
@@ -74,10 +74,10 @@ LibName10=dip_sockets
 LibName11=ref-packages
 LibName12=mm
 LibDir=
-[general]
-version=1
 [cvpcb]
 version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
+[general]
+version=1
