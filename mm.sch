@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 26 Feb 2012 10:41:40 PM EST
+EESchema Schematic File Version 2  date Fri 09 Mar 2012 03:13:10 AM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "Flease (2012)"
-Date "27 feb 2012"
+Date "9 mar 2012"
 Rev "1"
 Comp ""
 Comment1 ""
@@ -45,6 +45,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Entry Wire Line
+	10300 2000 10400 2100
+Entry Wire Line
+	9650 5950 9750 6050
 Connection ~ 6500 6650
 Connection ~ 6600 6650
 Wire Wire Line

@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Sun 26 Feb 2012 10:41:48 PM EST
+# EESchema Netlist Version 1.1 created  Fri 09 Mar 2012 03:12:20 AM EST
 (
  ( /4F4B2BFB PIN_ARRAY_2X1  P4 CONN_2 {Lib=CONN_2}
   (    1 N-000087 )
@@ -503,7 +503,7 @@
   (    1 /StepperDriver1/V3P3OUT )
   (    2 GND )
  )
- ( /4F03B8BC/4F03842A SM1812  C27 0.47uF_50V {Lib=C}
+ ( /4F03B8BC/4F03842A SM1812  C27 0.01uF_50V {Lib=C}
   (    1 N-000118 )
   (    2 N-000116 )
  )
@@ -563,7 +563,7 @@
   (    1 /StepperDriver2/V3P3OUT )
   (    2 GND )
  )
- ( /4F03B886/4F03842A SM1812  C23 0.47uF_50V {Lib=C}
+ ( /4F03B886/4F03842A SM1812  C23 0.01uF_50V {Lib=C}
   (    1 N-000108 )
   (    2 N-000106 )
  )
